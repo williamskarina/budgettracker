@@ -15,13 +15,8 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-// mongoose.connect("mongodb://localhost/budget", {
-//   useNewUrlParser: true,
-//   useFindAndModify: false
-// });
-
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/deep-thoughts',
+  process.env.MONGODB_URI || 'mongodb://localhost/budget',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -29,6 +24,7 @@ mongoose.connect(
     useFindAndModify: false
   }
 );
+
 
 // routes
 app.use(require("./routes/api.js"));
