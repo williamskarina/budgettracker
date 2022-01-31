@@ -5,9 +5,6 @@ The user will be able to add expenses and deposits to their budget with or witho
 ## Instructions
 Click on deployed link and once redirected to the link fill in the boxes and either add or subtract amount.
 
-## Deployed Link 
-https://pwa-tracker-budget.herokuapp.com
-
 ## Built With
 - JavaScript
 - Heroku
@@ -17,7 +14,7 @@ https://pwa-tracker-budget.herokuapp.com
 ## Author
 Karina W.
 
-# Budget Tracker Link
+## Budget Tracker Link
 https://pwa-tracker-budget.herokuapp.com/
 
 
